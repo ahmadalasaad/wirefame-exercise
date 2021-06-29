@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+header{
+    margin: 0 auto;
+    height: 100px;
+    width: 90%;
+    background-color: rgb(88, 86, 86);
+
+}
+header nav img{
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 126px
+
+} 
+nav{
+
+    margin: 0 76px;
+}
+ul  {
+    display: inline-block;
+    padding-top: 48px;
+    padding-left: 50px;
+}
+ ul li {
+    display: inline-block;
+    font-size: large;
+    padding-left: 80px;
+}
+main{
+    padding: 10px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul li :hover {
+    
+    background-color: rgb(46, 41, 41);
+
+}
+
+main section:nth-child(2){
+
+    padding-top: 20px;
+}
+
+main section:nth-child(2) img:nth-child(2),main section:nth-child(2) img:nth-child(3) {
+
+    padding-left: 16px;
+
+}
+main section:nth-child(3){
+    
+    padding-top: 20px;
+}
+main section:nth-child(3) img{
+
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(3) article{
+    
+    width: 49%;
+    margin-left: 1px;
+    float: right;
+   
+}
+
+main section:nth-child(3) article p{
+    height: 300px;
+overflow: scroll;
+
+}
+main section:nth-child(3) article a{
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+    border-radius: 32px;
+    border:solid gray 1px;
+    background-color: rgb(61, 56, 56);
+     margin-left:140px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 20px;
+}
+footer{
+    clear: both;
+    background-color:rgb(88, 86, 86);
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+   padding-top: 20px;
+    
+
+}
