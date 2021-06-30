@@ -97,6 +97,10 @@ main section:nth-child(3) article a{
     position: absolute;
     margin-top: 20px;
 }
+main section:nth-child(3) article a:hover{
+
+    background-color: black;
+}
 footer{
     clear: both;
     background-color:rgb(88, 86, 86);
